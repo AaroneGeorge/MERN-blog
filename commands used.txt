@@ -1,0 +1,26 @@
+yarn create react-app .
+yarn start
+install: react-router-dom
+    use: yarn add react-router-dom
+
+cd api
+yarn add express
+npm install -g nodemon
+yarn add global nodemon
+
+to run server:
+    nodemon index.js
+yarn add cors
+yarn add mongoose   (set up at mongodb.com/atlas/database)
+yarn add bcryptjs
+yarn add jsonwebtoken
+yarn add cookie-parser
+
+cd ../client
+yarn add react-quill
+
+cd ../api
+yarn add multer
+
+cd ../client
+yarn add date-fns
